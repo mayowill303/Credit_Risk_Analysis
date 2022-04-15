@@ -31,7 +31,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Deliverable 4: A Written Report on the Credit Risk Analysis
 ### Overview of the Analysis 
-The purpose of this analysis is .........
+The purpose of this analysis is to use Python to build and evaluate machine learning models to predict credit risk.  After review and testing, make a written recommendation on whether they should be used to predict credit risk.
 
 ### Results
 - Describe the balanced accuracy scores
