@@ -3,14 +3,20 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Deliverable 1: Use Resampling Models to Predict Credit Risk
 ### An accuracy score for the model is calculated (7.5 pt)
+![Resampling_Accuracy_Score](https://user-images.githubusercontent.com/96395120/163513732-32d6fa95-e493-4657-a681-ec0e9b3afb39.png)
 ### A confusion matrix has been generated (7.5 pt)
+![Resampling_Confusion_Matrix](https://user-images.githubusercontent.com/96395120/163513801-d330a02e-f329-400e-b26d-7bbb0b21df7a.png)
 ### An imbalanced classification report has been generated (15 pt)
+![Resampling_Imbalanced_Classification_Report](https://user-images.githubusercontent.com/96395120/163513842-f5cb29b2-7650-40aa-8798-dc1ea5290b1f.png)
 
 ## Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
 ### SMOTEENN 
 #### An accuracy score for the model is calculated (5 pt)
+![SMOTEENN_Accuracy_Score](https://user-images.githubusercontent.com/96395120/163513966-1d815e3e-346b-4b14-bb15-28f6df154de2.png)
 #### A confusion matrix has been generated (5 pt)
+![SMOTEENN_Confusion_Matrix](https://user-images.githubusercontent.com/96395120/163514005-75002570-d654-46f3-8773-8330f0636b85.png)
 #### An imbalanced classification report has been generated (5 pt)
+![SMOTEENN_Imbalanced_Classification_Report](https://user-images.githubusercontent.com/96395120/163514060-77ecab48-a1b9-4f6f-bffc-d42e6b2dc095.png)
 
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 ### BalancedRandomForestClassifier
