@@ -20,13 +20,13 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 ### BalancedRandomForestClassifier
-#### An accuracy score for the model is calculated (2.5 pt)
+#### An accuracy score for the model is calculated
 ![BalancedRandomForestClassifier_Accuracy_Score](https://user-images.githubusercontent.com/96395120/163515226-5afc2d2d-5388-4961-9f8f-acd543359636.png)
-#### A confusion matrix has been generated (2.5 pt)
+#### A confusion matrix has been generated
 ![BalancedRandomForestClassifier_Confusion_Matrix](https://user-images.githubusercontent.com/96395120/163515267-a664dea1-de1b-489d-8e03-177d5f9f9cdc.png)
-#### An imbalanced classification report has been generated (5 pt)
+#### An imbalanced classification report has been generated
 ![BalancedRandomForestClassifier_Imbalanced_Classification_Report](https://user-images.githubusercontent.com/96395120/163515310-9416de27-0885-4cfe-9a59-1441ff38e4bd.png)
-#### The features are sorted in descending order by feature importance (5 pt)
+#### The features are sorted in descending order by feature importance
 ![BalancedRandomForestClassifier_Sorted_Desc_Order](https://user-images.githubusercontent.com/96395120/163515370-09477399-11ed-422a-8746-2bf8f0344b63.png)
 
 ### EasyEnsembleClassifier
@@ -42,11 +42,13 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 The purpose of this analysis is to use Python to build and evaluate machine learning models to predict credit risk.  After review and testing, make a written recommendation on whether they should be used to predict credit risk.
 
 ### Results
-- Describe the balanced accuracy scores
-- The precision and recall scores of all six machine learning models
-- Use screenshots of your outputs to support your results
+- Naive Random Oversampling: The balanced accuracy scored 64%, with average precision of 99% and average recall of 63%.
+- SMOTE Oversampling: The balanced accuracy scored at 66%, with average precision of 99% and average recall of 63%.
+- Undersampling: The balanced accuracy scored at 66% with average precision of 99% and average recall of 40%.
+- Combination (Over and Under) Sampling: The balanced accuracy scored at 54% with average precision of 99% and average recall of 57%.
+- Balanced Random Forest Classifier: The balanced accuracy scored at 79% with average precision of 99% and average recall of 87%.
+- Easy Ensemble AdaBoost Classifier: The balanced accuracy scored at 99% with average precision of 99% and average recall of 94%.
 
 ### Summary
-- Summarize the results of the machine learning models
-- Recommendation on the model to use
-- If you do not recommend any of the models, justify reasoning.
+
+The machine learning models attempted to determine which model is best for predicting which loans are high risk. I found the accuracy, precision and recall scores for the classifier models balanced accuracy scored much higher than under/over sampling models.  I recommend the ensemble classifiers over the sampling models. Based on these results, it would appear that the Easy Ensemble AdaBoost Classifier scored the highest in accuracy, precision and recall.  I would recommend testing different datasets to validate whether Easy Ensemble would be a successful model for continued risk assessments.
